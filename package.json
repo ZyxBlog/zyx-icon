@@ -10,9 +10,19 @@
   "author": "zyx",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^1.0.1",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "webpack": "^4.27.0",
-    "webpack-merge": "^4.1.4"
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "raw-loader": "^0.5.1",
+    "url-loader": "^1.1.2",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webfonts-loader": "^4.3.0",
+    "webpack": "^4.27.0"
   }
 }
