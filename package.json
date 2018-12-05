@@ -1,0 +1,15 @@
+{
+  "name": "icon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zyx",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "webpack": "^4.27.0"
+  }
+}
