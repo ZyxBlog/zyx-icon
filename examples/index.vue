@@ -1,15 +1,20 @@
 <template>
     <div>
-        hhh
+        <div style="display: inline-block; width: 60px; text-align: center" v-for="iconName in iconArr" :key="iconName">
+            <span :class="`i-${iconName}`"></span>
+        </div>
     </div>
 </template>
+
 <script>
-    export default {
-        data() {
-            
+import { iconArr } from './config.js'
+
+export default {
+    name: "IconDemo",
+    data(){
+        return {
+            iconArr: iconArr,
         }
     }
+}
 </script>
-<style>
-
-</style>

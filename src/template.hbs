@@ -1,0 +1,25 @@
+@font-face {
+font-family: "{{fontName}}";
+src: url("icons.eot");
+src: {{{src}}};
+font-weight: normal;
+font-style: normal;
+}
+
+[class^="i-"], [class*="i-"] {
+font-family: {{fontName}} !important;
+speak: none;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+{{#each codepoints}}
+    .{{../classPrefix}}{{@key}}:before {
+    content: "\\{{this}}";
+    }
+{{/each}}

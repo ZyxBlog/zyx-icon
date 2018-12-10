@@ -1,4 +1,5 @@
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
@@ -24,7 +25,7 @@ module.exports = {
             {
                 test: /\.(less|css)$/,
                 loaders: [
-                    MiniCssExtractPlugin,
+                    MiniCssExtractPlugin.loader,
                     'css-loader',
                     'less-loader',
                 ]

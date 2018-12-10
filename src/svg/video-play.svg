@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>视频icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标" transform="translate(-209.000000, -109.000000)" fill="#000">
+            <path d="M216.5,116.250377 L216.124032,116.466321 L222.124032,119.966321 L222.124032,119.534432 L216.124032,123.034432 L216.5,123.250377 L216.5,116.250377 Z M216.375968,123.466321 L222.375968,119.966321 C222.541344,119.869852 222.541344,119.630901 222.375968,119.534432 L216.375968,116.034432 C216.209304,115.937211 216,116.057429 216,116.250377 L216,123.250377 C216,123.443324 216.209304,123.563542 216.375968,123.466321 Z" id="Triangle-Copy"></path>
+        </g>
+    </g>
+</svg>

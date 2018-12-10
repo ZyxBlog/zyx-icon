@@ -1,0 +1,43 @@
+const iconArr = [
+    'ad-exp',
+    'arrow-down',
+    'arrow-left',
+    'arrow-right-three',
+    'arrow-right',
+    'arrow-up',
+    'backtop',
+    'close-bold',
+    'close-thin',
+    'comment-oval',
+    'comment-rect',
+    'contact',
+    'delete',
+    'email',
+    'fire',
+    'feedback',
+    'heart',
+    'home',
+    'live',
+    'loading',
+    'location-fix',
+    'location-nav',
+    'more-bold',
+    'more-thin',
+    'play-btn',
+    'refresh',
+    'search-cancel',
+    'search',
+    'share-app',
+    'share-circle',
+    'share-safari',
+    'thumb',
+    'video-play',
+    'view',
+    'arrow-down2',
+    'heart-fill',
+    'comment-rect2'
+]
+
+export {
+    iconArr
+}

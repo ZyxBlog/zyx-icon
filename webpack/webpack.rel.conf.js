@@ -19,12 +19,17 @@ module.exports = {
             {
                 test: /icon.(js|json)$/,
                 loaders: [
-                    MiniCssExtractPlugin,
-                    'css-loader',
+                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            url: false,     // 禁用url进行处理
+                        }
+                    },
                     {
                         loader: 'webfonts-loader',
                         options: {
-                            publicPath: "./",
+                            publicPath: './',
                             fileName: '[fontname].[ext]' 
                         }
                     }
